@@ -1,0 +1,205 @@
+Lesson 1. 
+Introduction to the launcher
+
+A brief, high-level overview of the Epic Games Launcher and the features it provides.
+
+Community Tab
+Learn Tab
+Marketplace Tab
+Libary Tab
+Modding Tab
+
+Lesson 2. 
+Welcome to the Epic games launcher
+
+Community section - Whats new, Spotlight projects, Answer Hub, Forums (chat with other communit
+people)
+
+Roadmap - Past and future of the engine.
+Blog - Epic games posts for its community
+
+Learn Tab - Learn from already existing projects and small demos
+
+Marketplace Tab - Free and paid items to use in your project
+
+Library Tab - Can install multiple versions of the engine at the same time.
+		can clean up some storage on your device
+
+Vault - Items from marketplace and library.
+
+Modding Tab - Place to learn from existing content. Learn directly from launcher.
+
+Lesson 3. 
+Epic games Launcher conclusion.
+
+Launcher features. Different tabs.
+Primary portal for maeketplace, Modding Tab etc
+
+Whats next? - Projects and Templates, Editor Interface, Documenatation.
+
+Lesson 4. 
+Introduction to Projects and Templates.
+
+Managing our projects. 
+- Creating Templates
+- Starter Content 
+- Feature Packs
+
+Project Settings
+-New Project 
+- Commonly Changed
+- Important
+
+
+Lesson 5.
+Managing your projects.
+earn how to get access to your projects in Unreal Engine, and how to use the Project
+ Browser window.
+
+Open existing or new project after entering into Unreal Project Browser.
+
+
+recommended - open a copy of the existing project.It will open it with new version.
+		(this will take extra space.) 
+		if space issue - more option - convert-in-place
+
+New Project Tab.
+
+Lesson 6. 
+Starting a new project.
+
+This module discusses how to create a new project, and the options available when you
+ create one. It also talks about the common uses for Templates and Starter Content, and
+ how to add new Feature Packs to a project.
+
+
+New Project Tab.
+Templates.- previous projects which we use to fast development of our project.
+
+For ex. Architectural visualization. - use third person. 
+
+Two options - Blueprint
+		C++
+
+Choose options(Changeable) - Desktop/Console (Which device are you targeting.), Scalable 3D or 2D,
+		 No starter content (collection of resources to quickly accelerate
+		 development) 
+
+Note - Starter content takes 500 MB of space on your disk, so don't include it if you don't
+	need it. 
+
+Feature Packs - Blueprint Feature, C++ feature, Content packs (Mobile starter content, 
+			Starter content).
+
+Lesson 7. 
+The Project settings overview. 
+
+Edit - project settings. 
+project - target hardware - (to get started)
+
+Maps and modes - create starting point for your game. 
+
+packaging - what will be included in your game when you package it. 
+
+Supported platforms - select which platforms you want your project on. 
+    	for ex. if we uncheck linux, we won't be able to check our project on linux. 
+
+Lesson 8. 
+Projects and templates conclusion.
+
+What's next? - Editor interface. Important files. 
+
+
+Lesson 9 
+Understanding the .uproject file. 
+
+.uproject file.
+- features
+-editing
+
+Project folder structure
+- Basic structure
+- Disposable folders.
+
+Cached downloads
+-where are they
+- managing them
+
+DDc folders
+- What is DDC
+- Managing the files.
+
+Lesson 10. 
+Understanding the .uproject file. 
+
+What is the .uproject file and how do we use it to modify our project?
+
+its a text file. 
+- it contains the basic setting how this project uses unreal engine.
+
+Right click - launch the game. (it will run with associated engine version.)
+Right click - Switch unreal engine version. 
+assets have no backward compatibility
+
+Right click - generate visual studio project file. 
+In folder, NewProjectCPP, we will get .sln file from the the source code.
+
+Only time you will edit this text file when you want to enable or disable something.
+(To enable and disable plugins.) 
+
+Lesson 11. 
+
+Understanding the project structure. 
+
+How are Projects stored on our drive, and what are the important folders?
+
+ex. ThirdPersonProject
+-Config - project related settings. 
+-Content - contains all the contents of your project
+-Intermediate - we can get rid of this. holding only intermediate things and steps when
+		you are building your project. project will recreate the missing objects
+		if you delete this folder
+-Saved - basically same as intermediate. but do not delete it unless sure. On crash, 
+		engine will look for this folder to recraete the items. 
+ThirdPersonProject.uproject (basics of your project)
+
+ex. NewProjectCPP
+
+.sln file can be deleted, it will detect the modules get created again when you run
+ .uproject file. 
+
+binaries folder - gets created every time you compile your project. can get rid of it. 
+
+Source folder - will contain C++ code 
+
+Required folders to recreate the project properly - config, content, source, and any files
+which are inside the project folder itself. 
+
+
+Lesson 12 - Cached downloads.
+
+Downloads from vault. 
+
+Edit cache location - this will show us where the default cache is at.
+
+VaultCache folder. 
+
+Lesson 13.
+
+DDC folders. 
+
+Drive data cache. 
+stores versions of your assets in the specific format used by unreal engine.
+
+taking the source files, convert them into appropriate format and store them in DDC
+
+Useful when the project is developed by a team and to share 
+
+AppData - Local - UnrealEngine
+
+Lesson 14,
+Important Files and Folders conclusion
+
+What's next?
+Editor Interface
+Documentation.
